@@ -2,7 +2,12 @@
   "name": "liri-node-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "keys.js",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +21,5 @@
   "bugs": {
     "url": "https://github.com/JaredMHenderson/liri-node-app/issues"
   },
-  "homepage": "https://github.com/JaredMHenderson/liri-node-app#readme",
-  "dependencies": {
-    "node-spotify-api": "^1.0.7",
-    "twitter": "^1.7.1"
-  }
+  "homepage": "https://github.com/JaredMHenderson/liri-node-app#readme"
 }
